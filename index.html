@@ -1,0 +1,180 @@
+<!--
+Link to original photo:
+-->
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./styling.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script defer src="./updateWeather.js"></script>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="navbar with-bg">
+            <!-- 	Where our navbar will go	 -->
+        </div>
+
+        <div class="weather-tab">
+            <div class="location-input-container">
+                <input type="text" class="with-bg location-input" />
+                <div class="with-bg location-results">
+                </div>
+                <!-- Navigation icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="nav-icon" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+            </div>
+            <div class="weather-result">
+                <div class="today">
+                    <div class="summary">
+                        <!-- Where Madrid section goes -->
+                        <div class="section">
+                            <h1 class="white">Madrid</h1>
+                            <div class="rain-chance">Chance of rain: 0%</div>
+
+                            <div class="temp white">31&deg;</div>
+                        </div>
+                        <img src="weather-icons/cloudy.png" />
+                    </div>
+                    <div class="today-forecast with-bg">
+                        <!-- Where our code goes (Week 3 in-class activity) -->
+                        <div class="small-txt">Today's Forecast</div>
+                        <div class="hourly-forecast">
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/sunny.png"
+                                />
+                                <strong class="temp">25&deg;</strong>
+                            </div>
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/cloudy.png"
+                                />
+                                <strong class="temp">25&deg;</strong>
+                            </div>
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/thunder.png"
+                                />
+                                <strong class="temp">50&deg;</strong>
+                            </div>
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/sunny.png"
+                                />
+                                <strong class="temp">12&deg;</strong>
+                            </div>
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/sunny.png"
+                                />
+                                <strong class="temp">25&deg;</strong>
+                            </div>
+                            <div class="hour small-txt">
+                                <span>6:00 AM</span>
+                                <img
+                                    src="./weather-icons/sunny.png"
+                                />
+                                <strong class="temp">39&deg;</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="air-conditions with-bg">
+                        <div class="small-txt">Air Conditions</div>
+
+                        <div class="conditions">
+                            <div class="condition">
+                                <i class="bi bi-thermometer-high"></i>
+                                <div>
+                                    Real Feel
+                                    <strong>30&deg;</strong>
+                                </div>
+                            </div>
+                            <div class="condition">
+                                <i class="bi bi-wind"></i>
+                                <div>
+                                    Wind
+                                    <strong>0.2 km/h</strong>
+                                </div>
+                            </div>
+                            <div class="condition">
+                                <i class="bi bi-droplet-fill"></i>
+                                <div>
+                                    Chance of rain
+                                    <strong>0%</strong>
+                                </div>
+                            </div>
+                            <div class="condition">
+                                <i class="bi bi-sun"></i>
+                                <div>
+                                    UV Index
+                                    <strong>3</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="week with-bg">
+                    <div class="small-txt">7-Day Forecast</div>
+
+                    <div class="forecast">
+                        <div class="day">
+                            <div class="day-name">Today</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Tues</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Wed</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Thurs</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Fri</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Sat</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                        <div class="day">
+                            <div class="day-name">Sun</div>
+                            <div class="desc white">
+                                <img src="./weather-icons/sunny.png" /> Sunny
+                            </div>
+                            <div class="day-temp"><span class="white">36</span>/22</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
