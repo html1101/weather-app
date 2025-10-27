@@ -186,7 +186,7 @@ locationInput.addEventListener("keydown", (evt) => {
 
 // Upon loading for the first time, get an estimation of their location using geocoding
 const estimateLocation = async () => {
-    const geoLoc = await fetch('http://ip-api.com/json/').then(response => response.json());
+    const geoLoc = await fetch(`${location.protocol}//ip-api.com/json/`).then(response => response.json());
     
     const {lat, lon, countryCode, city} = geoLoc;
     lookupLocation(lat, lon)
